@@ -46,34 +46,38 @@ public class Magpie3
 			response = "Tell me more about your family.";
 		}
         else if (findKeyword(statement,"dog") >= 0
-                || findKeyword(statement,"cat") >= 0 
+                || findKeyword(statement,"cat") >= 0)
         {
-        response = "Tell me more about your pets."
+        response = "Tell me more about your pets.";
         }
-        else if (findKeyword(statement,"Mr.Chen") >= 0 
+        else if (findKeyword(statement,"Mr.Chen") >= 0)
         {
-            response = " he sounds super awesome and cool and you should give him $100"
+            response = " he sounds super awesome and cool and you should give him $100";
         }
-        else if (findKeyword(statement.trim().length() ==0))
+        else if (statement.trim().length() ==0)
        {
-            response = "say something,please "
+            response = "say something,please";
        }
        else if (findKeyword(statement,"good") >= 0 
-                || findKeyword(statement,"bad") >=0 
+                || findKeyword(statement,"bad") >=0) 
         {
-            response = "what happened?"
+            response = "what happened?";
         }
-        else if (findKeyword(statement,"phone") >=0 
+        else if (findKeyword(statement,"phone") >=0) 
        {
-            response = "what kind of phone you have? "
+            response = "what kind of phone you have? ";
        }
-        else if (findKeyword(statement,"place") >=0 
+        else if (findKeyword(statement,"place") >=0)
        {
-            response = "where you from?"
+            response = "where you from?";
        }
-        else if (findKeyword(statement,"school") >=0 
+        else if (findKeyword(statement,"school") >=0)
        {
-            response = "which school you go? "
+            response = "which school you go?";
+       }
+        else if (findKeyword(statement,"muhammed") >=0)
+       {
+            response = "What a gigantic toolbag, I agree.";
        }
 		else
 		{

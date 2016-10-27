@@ -43,34 +43,34 @@ public class Magpie2
             response = "Tell me more about your family.";
         }
         else if (statement.indexOf("dog") >= 0
-                || statement.indexOf("cat") >= 0 
+                || statement.indexOf("cat") >= 0) 
         {
-        response = "Tell me more about your pets."
+        response = "Tell me more about your pets.";
         }
-        else if (statement.indexOf("Mr.Chen") >= 0 
+        else if (statement.indexOf("Mr.Chen") >= 0)
         {
-            response = " he sounds super awesome and cool and you should give him $100"
+            response = " he sounds super awesome and cool and you should give him $100";
         }
-        else if (statement.index("") >=0 
+        else if (statement.trim().length() ==0) 
        {
-            response = "say something,please "
+            response = "say something,please ";
        }
        else if (statement.indexOf("good") >= 0 
-                || statement.indexOf("bad") >=0 
+                || statement.indexOf("bad") >=0)
         {
-            response = "what happened?"
+            response = "what happened?";
         }
-        else if (statement.index("phone") >=0 
+        else if (statement.index("phone") >=0) 
        {
-            response = "what kind of phone you have? "
+            response = "what kind of phone you have? ";
        }
-        else if (statement.index("place") >=0 
+        else if (statement.index("place") >=0)
        {
-            response = "where you from?"
+            response = "where you from?";
        }
-        else if (statement.index("school") >=0 
+        else if (statement.index("school") >=0) 
        {
-            response = "which school you go? "
+            response = "which school you go? ";
        }
          else     
         {
